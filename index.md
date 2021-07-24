@@ -13,3 +13,6 @@
     </td>
   </tr>
 </table>
+
+# Vscode安装
+[vscode安装链接](/vscode_install.pdf)
