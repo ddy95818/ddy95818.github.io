@@ -1,5 +1,4 @@
-<div align='center' ><font size=5>厚德 笃学 崇实 尚新</font></div>  
-<font color=gray size=7 face="黑体">厚德 笃学 崇实 尚新</font>
+<div align='center'><font color=black size=7 face="黑体">厚德 笃学 崇实 尚新</font></div>
 <table border="0">
   <tr>
     <td width="75%">
