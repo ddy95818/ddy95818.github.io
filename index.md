@@ -9,7 +9,7 @@
       <p><b>职位：目前就职于中兴通讯-嵌入式软件开发</b></p>
     </td>
     <td width="25%">
-      ![生活照](/life_photo.jpg)
+      <img src="life_photo.jpg" width="100%">
     </td>
   </tr>
 </table>
