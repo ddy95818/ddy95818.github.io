@@ -1,3 +1,5 @@
+<div align='center' ><font size=5>厚德 笃学 崇实 尚新</font></div>  
+<font color=gray size=7 face="黑体">厚德 笃学 崇实 尚新</font>
 <table border="0">
   <tr>
     <td width="75%">
@@ -14,5 +16,6 @@
   </tr>
 </table>
 
-# Vscode安装
+# **学习之路分享**
+## Vscode安装
 [vscode安装链接](/vscode_install.pdf)
