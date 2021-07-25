@@ -16,5 +16,9 @@
 </table>
 
 # **学习之路分享**
-## Vscode安装
-[vscode安装链接](/vscode_install.pdf)
+## Vscode
+
+<details>
+<summary>vscode安装</summary>
+![vscode安装链接](/vscode_install.pdf)
+</details>
