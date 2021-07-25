@@ -15,10 +15,7 @@
   </tr>
 </table>
 
-# **学习之路分享**
+# **编程学习之路分享**
 ## Vscode
 
-<details>
-<summary>vscode安装</summary>
-![vscode安装链接](/vscode_install.pdf)
-</details>
+### [vscode安装](/vscode_install.pdf)
