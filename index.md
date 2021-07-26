@@ -19,3 +19,6 @@
 ## Vscode
 
 ### [vscode安装](/vscode_install.pdf)
+
+## 深入理解计算机系统
+### [计算机系统漫游](/深入理解计算机系统.md)
