@@ -23,7 +23,7 @@
 
 ## C++
 
-## labuladong的算法小炒
+## labuladong的算法小抄
 <details>
   <summary>点击展开内容</summary>
   <a href="/文件名">程序员努力建设中</a><br/>
@@ -31,7 +31,7 @@
 
 ## Leecode题库
 <details>
-  <summary>点击展开内容</summary>
+<summary>点击展开内容</summary>
   <a href="/文件名">程序员努力建设中</a><br/>
 </details>  
 
