@@ -10,15 +10,35 @@
       <p><b>职位：目前就职于中兴通讯-嵌入式软件开发</b></p>
     </td>
     <td width="25%">
-      <img src="life_photo.jpg" width="100%">
+      <img src="life_photo.jpg" width="0.1%">
     </td>
   </tr>
 </table>
 
+## [**简历预览**](/段德宇嵌入式简历.pdf)  
+
 # **编程学习之路分享**
+
+## C
+
+## C++
+
+## labuladong的算法小抄
+<details>
+  <summary>点击展开内容<img src="life_photo.jpg" width="10%"></summary>
+  <a href="/文件名">程序员努力建设中</a>
+</details>  
+
+## Leecode题库
+<details>
+<summary>点击展开内容</summary>
+  <a href="/文件名">程序员努力建设中</a>
+</details>  
+
 ## Vscode
 
 + ### [vscode安装](/vscode_install.pdf)
 
 ## 深入理解计算机系统
 + ### [计算机系统漫游](/计算机系统漫游.md)
++ ### [信息的表示和处理](/信息的表示和处理.md)
