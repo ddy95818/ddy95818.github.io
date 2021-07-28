@@ -26,13 +26,13 @@
 ## labuladong的算法小炒
 <details>
   <summary>点击展开内容</summary>
-  <a href="/vscode_install.pdf">程序员努力建设中</a><br/>
+  <a href="/文件名">程序员努力建设中</a><br/>
 </details>  
 
 ## Leecode题库
 <details>
   <summary>点击展开内容</summary>
-  <a href="/vscode_install.pdf">程序员努力建设中</a><br/>
+  <a href="/文件名">程序员努力建设中</a><br/>
 </details>  
 
 ## Vscode
