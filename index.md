@@ -18,7 +18,25 @@
 ## [**简历预览**](/段德宇嵌入式简历.pdf)  
 
 # **编程学习之路分享**
+
+## C
+
+## C++
+
+## labuladong的算法小炒
+<details>
+  <summary>点击展开内容</summary>
+  <a href="/vscode_install.pdf">程序员努力建设中</a><br/>
+</details>  
+
+## Leecode题库
+<details>
+  <summary>点击展开内容</summary>
+  <a href="/vscode_install.pdf">程序员努力建设中</a><br/>
+</details>  
+
 ## Vscode
+
 + ### [vscode安装](/vscode_install.pdf)
 
 ## 深入理解计算机系统
