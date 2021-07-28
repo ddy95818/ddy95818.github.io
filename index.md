@@ -29,7 +29,7 @@
   <a href="/文件名">程序员努力建设中</a>
 </details>  
 
-## Leecode题库
+## LeetCode题库
 <details>
   <summary>点击展开内容  <img src="hand.jpg" width="2%"></summary>
   <a href="/文件名">程序员努力建设中</a>
