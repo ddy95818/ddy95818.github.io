@@ -10,7 +10,7 @@
       <p><b>职位：目前就职于中兴通讯-嵌入式软件开发</b></p>
     </td>
     <td width="25%">
-      <img src="life_photo.jpg" width="100%">
+      <img src="life_photo.jpg" width="0.1%">
     </td>
   </tr>
 </table>
@@ -25,7 +25,7 @@
 
 ## labuladong的算法小抄
 <details>
-  <summary>点击展开内容</summary>
+  <summary>点击展开内容<img src="life_photo.jpg" width="10%"></summary>
   <a href="/文件名">程序员努力建设中</a>
 </details>  
 
