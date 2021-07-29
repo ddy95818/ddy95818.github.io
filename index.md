@@ -22,7 +22,7 @@
 ## C
 
 ## 数据库  
-+ ### [dynamicArray(动态数组)](/dynamicAray.md)
++ ### [dynamicArray(动态数组)](/dynamicArray.md)
 
 
 ## C++
