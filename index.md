@@ -21,7 +21,8 @@
 
 ## C
 
-## 数据库
+## 数据库  
++ ### [dynamicArray(动态数组)](/dynamicAray.md)
 
 
 ## C++
