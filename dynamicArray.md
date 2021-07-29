@@ -161,14 +161,14 @@ void destroy_DynamicArray(struct dynamicArray* array)
 	array = NULL;
 }
 
+
+<<用户自己编写的测试文件>>
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
 #include "dynamicArray.h"
 
-
-<<用户自己编写的测试文件>>
 //测试
 //自定义数据类型
 struct Person
