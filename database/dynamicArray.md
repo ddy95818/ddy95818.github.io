@@ -1,5 +1,5 @@
 # 动态数组
-![](database_photo/dynamicArray.jpg)
+![](/database_photo/dynamicArray.jpg)
 #### 分文件编写
 只需将 **'dynamicArray.h'** 和 **'dynamicArray.c'** 文件拷走，即可使用自己编写的动态数组。
 ```C
