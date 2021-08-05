@@ -1,6 +1,6 @@
 # shell
 shell是一个命令行解释器，它接收应用程序/用户命令，然后调用操作系统内核；还是一个功能强大的编程语言，易编写、易调试、灵活性强。
-![](shell_photo/shell.png)
+![](shell/image/shell.png)
 
 ## shell脚本入门
 脚本以 **#!/bin/bash** 开头
