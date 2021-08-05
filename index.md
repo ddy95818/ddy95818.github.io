@@ -48,4 +48,4 @@
 + ### [信息的表示和处理](/深入理解计算机系统/信息的表示和处理.md)
 
 ## linux
-+ ### [初步认识shell](/shell/shell.md)
++ ### [初步认识shell](/linux/shell.md)
