@@ -1,7 +1,7 @@
 # gdb(The GNU Project Debugger)
 linux下的程序调试工具
 ## gdb的安装
-执行下列命令，如果没安装，则进行安装；如果安装过，则进行更新
+执行下列命令，如果没安装，则进行安装；如果安装过，则进行更新  
 1、Centos下：
 ```c
 sudo yum -y install gdb
@@ -44,18 +44,23 @@ segment fault产生的原因：
 2. 改写错误：越过数组边界写入数据，在动态分配的内存空间以外写入数据，或改写一些堆管理数据结构
 3. 指针释放引起的错误 ：释放同一块内存两次，或释放一块未曾使用 malloc 分类的内存，或释放一个无效的指针
 
-程序挂掉的时，系统缺省不会生成 core 文件
-1) gcc -g xxx.c
-2) ./a.out
+程序挂掉的时，系统缺省不会生成 core 文件  
+1) gcc -g xxx.c  
+2) 2) ./a.out
    ![](image/段错误.png)
+
 3) ulimit -a 查看系统参数；
    ![](image/ulimit-a.png)
+
 4) ulimit -c unlimit 把 core 文件的大小设为无限制；
    ![](image/修改core文件大小.png)
+
 5) 运行程序，生成 core 文件；
    ![](image/core.png)
+
 6) gdb 程序名 core文件名
    ![](image/调试.png)
+
 7) 输入 bt，可查看函数调用栈
    ![](image/函数调用栈.png)
 
