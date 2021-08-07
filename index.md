@@ -50,3 +50,4 @@
 ## linux
 + ### [linux常用命令](/linux/command.md)
 + ### [初步认识shell](/linux/shell.md)
++ ### [gdb调试](/linux/gdb.md)
