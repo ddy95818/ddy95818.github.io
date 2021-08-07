@@ -59,10 +59,9 @@ segment fault产生的原因：
 ![](image/core.png)
 
 6) gdb 程序名 core文件名  
-
 ![](image/调试.png)
 
-1) 输入 bt，可查看函数调用栈  
+7) 输入 bt，可查看函数调用栈  
 ![](image/函数调用栈.png)
 
 ## 调试正在运行的程序
