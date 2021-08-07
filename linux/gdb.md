@@ -46,23 +46,24 @@ segment fault产生的原因：
 
 程序挂掉的时，系统缺省不会生成 core 文件  
 1) gcc -g xxx.c  
-2) 2) ./a.out
-   ![](image/段错误.png)
+2) ./a.out  
+![](image/段错误.png)
 
-3) ulimit -a 查看系统参数；
-   ![](image/ulimit-a.png)
+3) ulimit -a 查看系统参数；  
+![](image/ulimit-a.png)
 
-4) ulimit -c unlimit 把 core 文件的大小设为无限制；
-   ![](image/修改core文件大小.png)
+4) ulimit -c unlimit 把 core 文件的大小设为无限制；  
+![](image/修改core文件大小.png)
 
-5) 运行程序，生成 core 文件；
-   ![](image/core.png)
+5) 运行程序，生成 core 文件；  
+![](image/core.png)
 
-6) gdb 程序名 core文件名
-   ![](image/调试.png)
+6) gdb 程序名 core文件名  
 
-7) 输入 bt，可查看函数调用栈
-   ![](image/函数调用栈.png)
+![](image/调试.png)
+
+1) 输入 bt，可查看函数调用栈  
+![](image/函数调用栈.png)
 
 ## 调试正在运行的程序
 如果程序进入了死循环，一直运行，那么重新打开一个终端，先查看当前的进程pid
