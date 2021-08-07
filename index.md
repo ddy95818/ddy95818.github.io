@@ -48,4 +48,5 @@
 + ### [信息的表示和处理](/深入理解计算机系统/信息的表示和处理.md)
 
 ## linux
++ ### [linux常用命令](/linux/command.md)
 + ### [初步认识shell](/linux/shell.md)
