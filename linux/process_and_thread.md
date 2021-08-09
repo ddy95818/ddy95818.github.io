@@ -2,7 +2,8 @@
 ## 进程
 
 ## 线程
-代码里面涉及多线程的东西，gcc的时候要加 **-lpthread**
+代码里面涉及多线程的东西，gcc的时候要加 **-lpthread**  
+
 [多线程讲解](https://www.bilibili.com/video/BV1kt411z7ND)
 
 ```C
