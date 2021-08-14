@@ -8,9 +8,9 @@ make 是一个命令工具，是一个解释 makefile 中指令的命令工具�
 ```makefile
 # 每条规则的语法格式:
 target1,target2...: depend1, depend2, ...
-    command
-    ......
-    ......
+	command
+	......
+	......
 # 在 makefile 中声明一个伪目标需要使用 .PHONY 关键字
 .PHONY:伪文件名称
 # 伪目标：执行下面命令时没有生成目标文件
@@ -67,8 +67,8 @@ make 会首先找到 makefile 文件中的第 1 个规则，分析并执行相�
 
 #### 2.3 自动推导
 ```makefile
-calc:add.o  div.o  main.o  mult.o  sub.o
-        gcc  add.o  div.o  main.o  mult.o  sub.o -o calc
+calc:add.o div.o main.o mult.o sub.o
+        gcc add.o div.o main.o mult.o sub.o -o calc
 ```
 
 ```makefile
@@ -92,16 +92,16 @@ gcc add.o div.o main.o mult.o sub.o -o calc
 $(变量名)
 
 # 定义变量并赋值
-obj=add.o  div.o  main.o  mult.o  sub.o
+obj=add.o div.o main.o mult.o sub.o
 # 取变量的值
 $(obj)
 ```
 ```makefile
 # 这是一个规则，里边使用了自定义变量
-obj=add.o  div.o  main.o  mult.o  sub.o
+obj=add.o div.o main.o mult.o sub.o
 target=calc
 $(target):$(obj)
-        gcc  $(obj) -o $(target)
+        gcc $(obj) -o $(target)
 ```
 
 #### 3.2 预定义变量
@@ -138,7 +138,7 @@ calc:add.o div.o main.o mult.o sub.o
     gcc add.o div.o main.o mult.o sub.o -o calc
         
 # 这是一个规则，使用自动变量
-calc:add.o  div.o  main.o  mult.o  sub.o
+calc:add.o div.o main.o mult.o sub.o
 	gcc $^ -o $@
 ```
 
@@ -162,7 +162,7 @@ c.o:c.c
 
 # 简写后
 %.c: %.o
-    gcc $< -c $@
+	gcc $< -c $@
 ```
 ![](image/模式匹配.png)
 
