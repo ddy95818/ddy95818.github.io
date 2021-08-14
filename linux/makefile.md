@@ -73,11 +73,11 @@ calc:add.o div.o main.o mult.o sub.o
 
 ```makefile
 $ make
-cc    -c -o add.o add.c
-cc    -c -o div.o div.c
-cc    -c -o main.o main.c
-cc    -c -o mult.o mult.c
-cc    -c -o sub.o sub.c
+cc -c -o add.o add.c
+cc -c -o div.o div.c
+cc -c -o main.o main.c
+cc -c -o mult.o mult.c
+cc -c -o sub.o sub.c
 gcc add.o div.o main.o mult.o sub.o -o calc
 ```
 我们可以发现上边的 makefile 文件中只有一条规则，依赖中所有的 .o 文件在本地项目目录中是不存在的，并且也没有其他的规则用来生成这些依赖文件，这时候 make 会使用内部默认的构造规则先将这些依赖文件生成出来，然后在执行规则中的命令，最后生成目标文件 calc。
@@ -99,14 +99,15 @@ $(obj)
 ```makefile
 # 这是一个规则，里边使用了自定义变量
 obj=add.o div.o main.o mult.o sub.o
-target=calc
-$(target):$(obj)
-        gcc $(obj) -o $(target)
+tar=calc
+$(tar):$(obj)
+	gcc $(obj) -o $(tar)
 ```
 
 #### 3.2 预定义变量
-变 量 名 | 含 义 |默 认 值  
-:-: | :-: | :-:    
+
+变量名 | 含义 | 默认值  
+:-: | :-: | :-:  
 CC | C 语言编译器的名称 | cc  
 CXX | C++ 语言编译器的名称 | g++  
 RM | 删除文件程序的名称 | rm -f  
@@ -115,7 +116,7 @@ CFLAGS | C 语言编译器的编译选项 | 无默认值
 ```makefile
 # 这是一个规则，普通写法
 calc:add.o div.o main.o mult.o sub.o
-    gcc add.o div.o main.o mult.o sub.o -o calc
+	gcc add.o div.o main.o mult.o sub.o -o calc
         
 # 这是一个规则，里边使用了自定义变量和预定义变量
 obj=add.o div.o main.o mult.o sub.o
@@ -125,18 +126,20 @@ $(target):$(obj)
         $(CC) $(obj) -o $(target) $(CFLAGS)
 ```
 #### 3.3 自动变量
-自动变量用来代表这些规则中的目标文件和依赖文件，并且它们**只能在规则的命令中使用**。  
+自动变量用来代表这些规则中的目标文件和依赖文件，并且它们**只能在规则的命令中使用**。
+
 变量 | 含义  
-:-: | :-:  
+:-:|:-:  
 $< | 表示依赖项中第一个依赖文件的名称  
 $@ | 表示目标文件的名称，包含文件扩展名  
 $^ | 依赖项中，所有不重复的依赖文件，这些文件之间以空格分开  
 $* | 表示目标文件的名称，不包含目标文件的扩展名  
 
+
 ```makefile
 # 这是一个规则，普通写法
 calc:add.o div.o main.o mult.o sub.o
-    gcc add.o div.o main.o mult.o sub.o -o calc
+	gcc add.o div.o main.o mult.o sub.o -o calc
         
 # 这是一个规则，使用自动变量
 calc:add.o div.o main.o mult.o sub.o
@@ -207,7 +210,7 @@ obj = $(patsubst %.cpp, %.o, $(src))
 #### 6.1 版本1
 ```makefile
 calc:add.c div.c main.c mult.c sub.c
-    gcc add.c div.c main.c mult.c sub.c -o calc
+	gcc add.o div.o main.o mult.o sub.o -o calc
 # 优点：书写简单
 # 缺点：只要依赖中的某一个源文件被修改，所有的源文件都需要被重新编译，太耗时、效率低
 ```
@@ -215,7 +218,7 @@ calc:add.c div.c main.c mult.c sub.c
 ```makefile
 # 默认所有的依赖都不存在, 需要使用其他规则生成这些依赖
 calc:add.o div.o main.o mult.o sub.o
-    gcc add.o div.o main.o mult.o sub.o -o calc
+	gcc add.o div.o main.o mult.o sub.o -o calc
 
 add.o:add.c
     gcc -c add.c -o add.o
