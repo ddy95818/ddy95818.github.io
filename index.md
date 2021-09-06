@@ -26,6 +26,7 @@
 
 
 ## C++
++ ### [cpp基础-1](/cpp/cpp基础-1.md)
 
 ## labuladong的算法小抄
 <details>
