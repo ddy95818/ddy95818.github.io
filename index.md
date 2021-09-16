@@ -30,6 +30,7 @@
 + ### [cpp基础-2](/cpp/cpp基础-2.md)
 + ### [cpp基础-3](/cpp/cpp基础-3.md)
 + ### [cpp基础-4](/cpp/cpp基础-4.md)
++ ### [cpp基础-5](/cpp/cpp基础-5.md)
 
 ## labuladong的算法小抄
 <details>
